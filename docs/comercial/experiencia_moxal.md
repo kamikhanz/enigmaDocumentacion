@@ -1,6 +1,6 @@
 
 
-##1.0 Información General
+##1. Información General
 La experiencia MOXAL es un evento comercial, realizado de manera anual por **MOTORALMOR** donde el objetivo es fomentar al cliente a que llene el album entregado, para el año 2019 se ha propuesto los siguientes objetivos:
 
 
@@ -16,7 +16,7 @@ La experiencia MOXAL es un evento comercial, realizado de manera anual por **MOT
 
 Por cada 50 cromos normales el cliente se hace acreedor a un cupo para la **EXPERIENCIA MOXAL**, si el cliente obtiene los 6 cromos especiales se hace acreedor a un cupo adicional para la **EXPERIENCIA MOXAL**
 
-##1.1 Condiciones
+##2. Condiciones
 
 En el modulo de control de cromos para la **EXPERIENCIA MOXAL** se ha implementado la siguiente lógica:
 
@@ -32,13 +32,13 @@ En el modulo de control de cromos para la **EXPERIENCIA MOXAL** se ha implementa
     Si los clientes ingresados en la **EXPERIENCIA MOXAL** tienen vinculados estos tambien se incluirán en el cálculo (facturas y notas de crédito).
 
 Todas estas transacciones (DEBITOS, CREDITOS y SALDOS) son visibles y se pueden visualizar en un reporte historico por cliente desde el módulo de **EXPERIENCIA MOXAL**.
-##1.2 Ingreso al Modulo
+##3. Ingreso al Modulo
 Para acceder al modulo de control de cromos se debe ingresar al software ENIGMA y dar click sobre el menu principal **EXPERIENCIA MOXAL**, posterior a la ventana de carga se muestra el módulo.
 
 !!! note
     Si no tienes disponible el menu **EXPERIENCIA MOXAL** debes solicitar el respectivo acceso al departamento de TI.
 
-##1.3 Módulo
+##3.1. Módulo
 <center>![Módulo principal EXPERIENCIA MOXAL](/comercial/resources/modulo_experiencia_moxal_numeros.png "Módulo principal EXPERIENCIA MOXAL")</center>
 
 1. Ultima fecha de generación de cromos.
@@ -54,7 +54,7 @@ Para acceder al modulo de control de cromos se debe ingresar al software ENIGMA 
 !!! info
     El archivo PDF del reporte (punto #4) se exporta en la carpeta documentos del usuario actual en el directorio "reportes_enigma" con el nombre "experiencia_moxal.pdf"
 
-###1.3.1 Proceso de calculo de cromos
+###3.1.1. Proceso de calculo de cromos
 El módulo realiza los siguientes pasos para los cromos
 
 1. Busca las facturas canceladas en su totalidad del cliente o sus vinculados y considera el **subtotal de la factura- pronto pago - ajustes - productos gratis** 
@@ -62,7 +62,7 @@ El módulo realiza los siguientes pasos para los cromos
 3. Se busca las notas de credito por devolucion de las facturas del PASO #1 se considera **subtotal de la nota de credito**
 4. Finalmente se genera los cromos en base al saldo y el valor individual del cromo **(facturas - notas de credito - cromos entregados)**
 
-###1.3.2 Detalle de entrega de cromos
+###3.1.2. Detalle de entrega de cromos
 Se debe seleccionr el cliente deseado y posterior pulsar sobre el boton detalle el sistema despliega la siguiente ventana:
 <center>![Módulo principal EXPERIENCIA MOXAL](/comercial/resources/detalle_experiencia_moxal.png "Módulo principal EXPERIENCIA MOXAL")</center>
 
@@ -76,6 +76,9 @@ Se debe seleccionr el cliente deseado y posterior pulsar sobre el boton detalle 
 8. Nombre del cliente.
 9. Indica si ya se confirmó el envio de cromos.
 
-###1.3.3 Reporte detallado por cliente
-Este reporte puede ser generado desde el modulo principal se debe seleccionar el cliente desado y dar click sobre el boton REPORTE, el sistema generará un archivo PDF con todo el historico de transacciones del cliente.
+###3.1.3. Reporte detallado por cliente
+Este reporte se genera desde el modulo principal de **EXPERIENCIA MOXAL** primero se debe seleccionar el cliente deseado y dar click sobre el boton REPORTE, el módulo generará un archivo PDF con todo detalle el historico de las transacciones del cliente.
 
+
+<center>![Módulo principal EXPERIENCIA MOXAL](/comercial/resources/reporte_experiencia.png "Parte 1 del Reporte")</center>
+<center>![Módulo principal EXPERIENCIA MOXAL](/comercial/resources/reporte_experiencia2.png "Parte 2 del Reporte")</center>
