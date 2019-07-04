@@ -1,0 +1,20 @@
+site_name: Enigma - Documentación
+site_description: 'Portal de documentacion del SOFTWARE ENIGMA'
+site_author: 'Motoralmor'
+copyright: 'Copyright &copy; 2019 Motoralmor Cia. Ltda.'
+
+theme:
+  language: 'es'
+  name: 'material'
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+extra:
+  search:
+    language: 'es'
+nav:
+- Inicio: index.md
+- Comercial:
+  - Experiencia Moxal: comercial\experiencia_moxal.md
+
