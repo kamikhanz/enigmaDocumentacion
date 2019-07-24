@@ -13,9 +13,15 @@ La ventana de LOGIN requiere el usuario y contraseña otorgada por el departamen
 ####Actualizaciones
 Enigma al ser un software en constante desarrollo recibe actualizaciones frecuentes, al abrirlo de manera automática realiza una verificacion de las actualizaciones disponibles:
 
-<center>![Buscando actualización](/introduccion/resources/buscando_updates.png "Buscano actualización")</center>
+<center>![Buscando actualización](/introduccion/resources/buscando_updates.png"Buscando actualización")</center>
 
-De encontrar alguna disponible sugiere al usuario instalar
+De encontrar alguna actualización disponible se muestra una pantalla para realizar la actualizacion u omitirla.
+
+<center>![Update](/introduccion/resources/updating ask.PNG"Update")</center>
+
+Al pulsar sobre "Aceptar" empieza la descarga de la actualización desde el servidor, al terminar recibir la descarga el programa se abrirá automaticamente:
+
+<center>![Update](/introduccion/resources/actualizando_enigma.PNG"Update")</center>
 
 ####Requisitos de Software
 1. Windows 10 x86/x64
