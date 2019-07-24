@@ -21,11 +21,11 @@ Por cada 50 cromos normales el cliente se hace acreedor a un cupo para la **EXPE
 En el modulo de control de cromos para la **EXPERIENCIA MOXAL** se ha implementado la siguiente lógica:
 
 !!! danger
-    1. Se considera solo facturas emitidas desde el 01 de Abril 2019 hasta el 31 de Diciembre 2019 y que esten canceladas en su totalidad. 
+    1. Se considera solo facturas emitidas desde el 01 de Abril 2019 hasta el 31 de Diciembre 2019 y que esten canceladas en su totalidad.
     2. De las facturas se considera solo el subtotal neto ( Sin productos gratis y descuentos adicionales ). Genera un DEBITO
     3. Se resta las notas de credito por valor que hayan sido vinculadas a las facturas emitidas y canceladas a partir del 01 de Abril 2019. Genera un CREDITO
     4. Se resta las notas de credito por devolucion que hayan sido realizadas a las facturas emitidas y canceladas a partir del 01 de Abril 2019. Genera un CREDITO
-    5. Cuando se realiza la generacion de cromos el módulo realiza el siguiente calculo: (DEBITOS-CREDITOS)/VALOR DEL CROMO. En caso de que el saldo(DEBITOS-CREDITOS) sea menor al valor del cromo se genera un saldo para las proximas transacciones y no genera cromos. 
+    5. Cuando se realiza la generacion de cromos el módulo realiza el siguiente calculo: (DEBITOS-CREDITOS)/VALOR DEL CROMO. En caso de que el saldo(DEBITOS-CREDITOS) sea menor al valor del cromo se genera un saldo para las proximas transacciones y no genera cromos.
     6. El canje de cromo genera una transaccion del tipo CREDITO
 
 !!! info
@@ -57,7 +57,7 @@ Para acceder al modulo de control de cromos se debe ingresar al software ENIGMA 
 ###3.1.1. Proceso de calculo de cromos
 El módulo realiza los siguientes pasos para los cromos
 
-1. Busca las facturas canceladas en su totalidad del cliente o sus vinculados y considera el **subtotal de la factura- pronto pago - ajustes - productos gratis** 
+1. Busca las facturas canceladas en su totalidad del cliente o sus vinculados y considera el **subtotal de la factura- pronto pago - ajustes - productos gratis**
 2. Se procede a buscar las notas de credito por valor que afecten a las facturas del PASO #1 se considera **subtotal de la nota de credito**
 3. Se busca las notas de credito por devolucion de las facturas del PASO #1 se considera **subtotal de la nota de credito**
 4. Finalmente se genera los cromos en base al saldo y el valor individual del cromo **(facturas - notas de credito - cromos entregados)**
@@ -82,3 +82,4 @@ Este reporte se genera desde el modulo principal de **EXPERIENCIA MOXAL** primer
 
 <center>![Módulo principal EXPERIENCIA MOXAL](/comercial/resources/reporte_experiencia.png "Parte 1 del Reporte")</center>
 <center>![Módulo principal EXPERIENCIA MOXAL](/comercial/resources/reporte_experiencia2.png "Parte 2 del Reporte")</center>
+
