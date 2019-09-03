@@ -1,0 +1,35 @@
+site_name: Enigma - Documentación
+site_description: 'Portal de documentacion del SOFTWARE ENIGMA'
+site_author: 'Motoralmor'
+copyright: 'Copyright &copy; 2019 Motoralmor Cia. Ltda.'
+
+theme:
+  language: 'es'
+  name: 'material'
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+extra:
+  search:
+    language: 'es'
+nav:
+- Inicio: index.md
+- Bodega:
+    - Factura Despacho: bodega\factura_despacho\factura_despacho.md
+    - Cliente Despacho: bodega\cliente_despacho\cliente_despacho.md
+- Comercial:
+  - Experiencia Moxal: comercial\experiencia_moxal.md
+- Inventarios:
+    - Mantenimientos: inventarios\Mantenimientos\mantenimientos.md
+    - Caracteristica: inventarios\Mantenimientos\caracteristicas\caracteristica.md
+    - Clasificacion1: inventarios\Mantenimientos\clasificacion1\clasificacion1.md
+    - Clsificacion - Enlace: inventarios\Mantenimientos\clasificacion1enlace\clasificacion1enlace.md
+    - Ficha Tecnica: inventarios\Mantenimientos\fichatecnica\fichatecnica.md
+    - Marca: inventarios\Mantenimientos\marca\marca.md
+    - Partes: inventarios\Mantenimientos\partes\parte.md
+    - Subpartida Arancelaria: inventarios\Mantenimientos\subpartidaarancelaria\subpartida.md
+    - Tipo de Producto: inventarios\Mantenimientos\tipoproducto\tipoproducto.md
+
+
+
