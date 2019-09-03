@@ -28,27 +28,20 @@ Cuando el potencial producto nuevo posea toda la infomacion requerida del proces
 
 Adicional a los estados antes mencionados, existen tres estados mas para poder solventar posibles anomalias encontradas en el proceso.
 
-**Produccion**:
-**Stock**:
-**Eliminado**:
+**Produccion**: en caso de que el potencial producto nuevo, 
+**Stock**: en caso de que el potencial producto nuevo tenga identicas caracteristicas a un producto que actualmente se encuentra con stock en nustrestas bodegas y el usuario que realizo la solicitud de producto nuevo crea conveniente dar por finalizacido el analisis ya que el producto existente satisface las espectativas iniciales.
+**Eliminado**: este estado sirve para dar por terminado un analisis de producto nuevo.
+
+!!! info
+   Cabe recalcar que la solicitud de producto nuevo podra pasar a estado **Produccion, Stock y/o Eliminado** en cualquier momento del proceso. El resto de estos obligatoriamente cumpliran el proceso y por ende sus requisitos minimos.
+
+!!! danger
+    Toda transaccion realizada, ya sea: actualizacion de datos, cambio de estados, etc; posee una auditoria detallada.
 
 ##4. Ingreso al modulo
 
 ##5. Resumen
 
-
-
-!!! danger
-    1. Se considera solo facturas emitidas desde el 01 de Abril 2019 hasta el 31 de Diciembre 2019 y que esten canceladas en su totalidad.
-    2. De las facturas se considera solo el subtotal neto ( Sin productos gratis y descuentos adicionales ). Genera un DEBITO
-   
-
-!!! info
-    Si los clientes ingresados en la **EXPERIENCIA MOXAL** tienen vinculados estos tambien se incluirán en el cálculo (facturas y notas de crédito).
-
-
-!!! note
-    Si no tienes disponible el menu **EXPERIENCIA MOXAL** debes solicitar el respectivo acceso al departamento de TI.
 
 ##3.1. Módulo
 <center>![Módulo principal EXPERIENCIA MOXAL](/comercial/resources/modulo_experiencia_moxal_numeros.png "Módulo principal EXPERIENCIA MOXAL")</center>
